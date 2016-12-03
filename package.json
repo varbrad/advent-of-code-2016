@@ -1,0 +1,11 @@
+{
+  "name": "advent-of-code-2016",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/varbrad/advent-of-code-2016",
+  "author": "Brad Davies <varbrad@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^4.17.2"
+  }
+}
