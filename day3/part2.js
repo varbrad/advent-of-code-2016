@@ -15,7 +15,7 @@ input = _.flatten(_.map(input, function (o) {
 var count = 0
 for (var k = 0; k < input.length; k += 9) {
   for (var n = k; n < k + 3; ++n) {
-    count += input[n] + input[n+3] > input[n+6] && input[n] + input[n+6] > input[n+3] && input[n+3] + input[n+6] > input[n] ? 1 : 0
+    count += input[n] + input[n + 3] > input[n + 6] && input[n] + input[n + 6] > input[n + 3] && input[n + 3] + input[n + 6] > input[n] ? 1 : 0
   }
 }
 

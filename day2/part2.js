@@ -19,19 +19,19 @@ var y = 2
 for (var i = 0; i < input.length; ++i) {
   var commands = input[i]
   for (var k = 0; k < commands.length; ++k) {
-    switch(commands[k]) {
+    switch (commands[k]) {
       case 'U':
         // Only try to move up if Y >= 1 && key[y-1][x] !== 0
-        if (y >= 1 && keypad[y-1][x] !== 0) y--
+        if (y >= 1 && keypad[y - 1][x] !== 0) y--
         break
       case 'D':
-        if (y <= 3 && keypad[y+1][x] !== 0) y++
+        if (y <= 3 && keypad[y + 1][x] !== 0) y++
         break
       case 'L':
-        if (x >= 1 && keypad[y][x-1] !== 0) x--
+        if (x >= 1 && keypad[y][x - 1] !== 0) x--
         break
       case 'R':
-        if (x <= 3 && keypad[y][x+1] !== 0) x++
+        if (x <= 3 && keypad[y][x + 1] !== 0) x++
         break
     }
   }
