@@ -6,6 +6,7 @@
   "author": "Brad Davies <varbrad@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
+    "crypto-js": "^3.1.8",
     "lodash": "^4.17.2"
   }
 }
