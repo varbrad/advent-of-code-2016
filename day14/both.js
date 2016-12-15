@@ -28,6 +28,8 @@ var doHash = getHash1
 // for part 2 (uncomment out)
 // doHash = getHash2
 
+var time = new Date().getTime()
+
 while (true) {
   var hash = doHash(current)
   var match = hash.match(/(\w)\1\1/)
@@ -49,3 +51,5 @@ while (true) {
   hashes[current] = null
   current++
 }
+
+console.log('Took ' + (new Date().getTime() - time) + 'ms to run')
