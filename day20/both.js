@@ -34,4 +34,5 @@ _.each(input, v => {
   taken += v.end - v.start + 1
 })
 
+console.log('First Free IP: ' + (input[0].end + 1))
 console.log('Free IP total: ' + (4294967295 - taken + 1)) // Off by 1 as 0th IP doesnt get counted
