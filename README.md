@@ -13,3 +13,6 @@ Run via Python. Solutions coded relying on Python 3.5.2.
 ````
 python dayX/partX.py
 ````
+
+## Processing (Java)
+Run via [Processing](https://processing.org/). Processing 3.x required.
